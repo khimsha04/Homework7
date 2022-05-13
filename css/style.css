@@ -24,29 +24,55 @@ h1:hover{
     font-size: 25px;
     margin-left: 38%;
 }
-/* section .first-car{
-    width: 300px;
-    margin-top: 50px;
-    margin-left: 900px;
-    /* position: absolute;
+ section .first-car{
+    width: 400px;
+    margin-top: 150px;
+    margin-left: 450px;
+
+    position: absolute;
 	animation-name: FMove;
-	animation-duration: 3s;
-	animation-delay: 0.3s;
+	animation-duration: 4s;
+	animation-delay: 0.4s;
 	animation-timing-function: linear;
 	animation-iteration-count: 10;
 	animation-fill-mode: forwards;
-	animation-direction: alternate-reverse;
- } */
+	animation-direction: alternate;
+    z-index: 0;
+ } 
 
-/* @keyframes FMove {
+ @keyframes FMove {
     from {
 		top: 0;
-		left: 0;
+		right: 0;
 	}
 	to {
-		top: 50%;
-		left: 80%;
+		top: 0%;
+		right: 20%;
 		
 	}
-} */ 
+} 
+section .second-car{
+    width: 400px;
+    margin-top: 150px;
+    position: absolute;
+	animation-name: SMove;
+	animation-duration: 4s;
+	animation-delay: 0.4s;
+	animation-timing-function: linear;
+	animation-iteration-count: 10;
+	animation-fill-mode: forwards;
+	animation-direction: alternate;
+    z-index: 0;
+    
+}
+@keyframes SMove{
+    from{
+        top: 0;
+        left: 0;
+    }
+    to{
+        top: 0%;
+        left: 20%;
+    }
+}
 	
