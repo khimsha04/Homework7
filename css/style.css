@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body h1{
+    font-size: 20px;
+    color: brown;
+    background-color: yellow;
+    text-align: center;
+    cursor: pointer;
+    transition-property: all;
+    transition-delay: 1s;
+    text-transform: uppercase;
+    position: fixed;
+    margin: 20px;
+    vertical-align: top;
+    margin-left: 40%;
+    border-radius: 28px;
+    padding: 5px;
+}
+h1:hover{
+    color: black;
+    font-size: 25px;
+    margin-left: 38%;
+}
+/* section .first-car{
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 900px;
+    /* position: absolute;
+	animation-name: FMove;
+	animation-duration: 3s;
+	animation-delay: 0.3s;
+	animation-timing-function: linear;
+	animation-iteration-count: 10;
+	animation-fill-mode: forwards;
+	animation-direction: alternate-reverse;
+ } */
+
+/* @keyframes FMove {
+    from {
+		top: 0;
+		left: 0;
+	}
+	to {
+		top: 50%;
+		left: 80%;
+		
+	}
+} */ 
+	
